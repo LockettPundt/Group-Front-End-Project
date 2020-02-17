@@ -23,7 +23,10 @@ a {
 }
 
 a:hover {
-  color: #98CEAC;
+  color: #f46A4E;
+}
+a:focus {
+  color: #f46A4E
 }
 
 span {
@@ -42,6 +45,14 @@ select::-ms-expand {
   appearance: none;
   overflow: hidden;
 }
+
+.button:hover {
+  background-color: #f46A4E;
+}
+.button:focus {
+  background-color: #f46A4E
+}
+
 
 li {
   list-style-type: none;
